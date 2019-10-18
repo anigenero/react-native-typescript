@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "target": "es6",
+    "module": "es6",
+    "moduleResolution": "node",
+    "jsx": "react",
+    "outDir": "artifacts",
+    "allowSyntheticDefaultImports": false,
+    "noImplicitAny": false,
+    "preserveConstEnums": true,
+    "allowJs": false,
+    "sourceMap": true,
+    "noImplicitReturns": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "lib": [
+      "dom",
+      "es6"
+    ]
+  },
+  "types": [
+    "react",
+    "react-native",
+    "jest"
+  ],
+  "include": [
+    "app/components/App/App.tsx",
+    "types/environment.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/__tests__/*",
+    "app/__mocks__/*",
+    "android",
+    "ios",
+    "build",
+    "artifacts"
+  ],
+  "compileOnSave": false
+}
