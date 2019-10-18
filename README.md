@@ -1,4 +1,4 @@
-#typescript-react-native
+# typescript-react-native
 A React Native project for Typescript
 
 ## Requirements
